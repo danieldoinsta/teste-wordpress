@@ -1,0 +1,55 @@
+body {
+    background-image: url();
+    color: rgb(8, 103, 234);
+    font-family: "Orbitron", sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+li:hover {
+    background-color: rgb(110, 150, 237);
+}
+
+
+a {
+    color: rgb(31, 135, 220);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(231, 231, 231);
+    transition: 0.3 all;
+}
+
+ios-btn {
+    border: 2px solid rgb(170, 110, 206);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#ios-btn:hover {
+    background-color: rgb(110, 150, 237);
+    color: white;
+}
+
+h1 {
+    font-weight: 200;
+}
